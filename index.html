@@ -7,95 +7,216 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
   <link rel="stylesheet" href="css/style.css">
 
   <title>Boostrap Freelancer</title>
 
-  <style>
-    [class^="container"],
-    [class^="col"]{
-      background-color: rgba(255, 0, 0, 0.637);
-      border: 1px solid black;
-      min-height: 80px;
-      margin-bottom: 20px;
-    }
-  </style>
-
 </head>
 <body>
   <header>
-    <div class="container-fluid text-center">
 
-      <div class="row">
-
-        <div class="col">
-          <h2>Start Bootstrap</h2>
+    <div class="container h-100 d-flex align-items-center">
+      <nav class="navbar navbar-expand-lg w-100 ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <h5 class="text-white">START BOOTSTRAP</h5>
+          </a>
+          
+          <button class="navbar-toggler sc-hamburger" type="button" data-bs-toggle="collapse"   data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
+              
+              <li class="nav-item">
+                <a class="nav-link text-white"  href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Chi Siamo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contatti</a>
+              </li>
+          
+            </ul>
+          </div>
         </div>
-        <div class="col text-end d-sm-none">H</div>
-        <div class="col d-none d-sm-block">
-          <span>contact</span>
-          <span>portafolio</span>
-          <span>about</span>
-        </div>
+      </nav>
 
-      </div>
+    </div>
+
   </header>
 
-    <div class="jumbotron">
-      
+    <div class="jumbotron d-flex align-items-center">
+      <div class="container text-center">
+        <div class="row">
+
+          <div class="col">
+            <img src="img/avatar.svg" alt="">
+            <h2 class="text-white">START BOOSTRAP</h2>
+
+            <div class="stella">
+              <div class="line bg-white"></div>
+              <span class="text-white">
+                <i class="bi bi-star-fill star"></i>
+              </span>
+              <div class="line bg-white"></div>
+            </div>
+
+            <div class="col">
+              <span class="text-white">
+                Graphic Artist - Web Designer - Illustrator
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="container">
+    <div id="portfolio" class="container text-center">
 
       <div class="row">
         <div class="col">
-          <h2>Portfolio</h2>
+          <h2>PORTFOLIO</h2>
+          <div class="stella">
+            <div class="line bg-black"></div>
+            <span class="">
+              <i class="bi bi-star-fill star"></i>
+            </span>
+            <div class="line bg-black"></div>
+          </div>
         </div>
       </div>
-
-      <div class="row">
-        <div class="col-12 col-sm-6 col-lg-4"></div>
-        <div class="col-12 col-sm-6 col-lg-4"></div>
-        <div class="col-12 col-sm-6 col-lg-4"></div>
-        <div class="col-12 col-sm-6 col-lg-4"></div>
-        <div class="col-12 col-sm-6 col-lg-4"></div>
-        <div class="col-12 col-sm-6 col-lg-4"></div>
-      </div>
-
     </div>
 
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-12">
-          <h2>About</h2>
+    <div class="container card fs-card">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="col">
+          <img src="img/cabin.png" alt="">
         </div>
-        <div class="col-12 col-sm-6"></div>
-        <div class="col-12 col-sm-6"></div>
-        <div class="col-12"></div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2>contact me</h2>
+        <div class="col">
+          <img src="img/cake.png" alt="">
         </div>
-        <div class="col-12"></div>
-        <div class="col-12"></div>
-        <div class="col-12"></div>
-      </div>
-
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-sm-4"></div>
-        <div class="col-12 col-sm-4"></div>
-        <div class="col-12 col-sm-4"></div>
-      </div>
-      <div class="row">
-        <div class="col-12"></div>
+        <div class="col">
+          <img src="img/circus.png" alt="">
+        </div>
+        <div class="col">
+          <img src="img/game.png" alt="">
+        </div>
+        <div class="col">
+          <img src="img/safe.png" alt="">
+        </div>
+        <div class="col">
+          <img src="img/submarine.png" alt="">
+        </div>
       </div>
     </div>
+
+
+    <section class="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-white">ABOUT</h2>
+            <div class="stella">
+              <div class="line bg-white"></div>
+              <span class="text-white">
+                <i class="bi bi-star-fill star"></i>
+              </span>
+              <div class="line bg-white"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="fs-container">
+        <div class="container-fluid text-center">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col text-white text-start">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos qui vero aut perferendis? Placeat quibusdam impedit suscipit velit aspernatur beatae. Sed alias non obcaecati cumque vel quasi laboriosam architecto ad.</p>
+            </div>
+            <div class="col text-white text-start">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus et pariatur ipsum impedit ratione molestiae, a, mollitia cupiditate aspernatur doloribus nemo consequatur perspiciatis animi maiores, tempora quam reprehenderit natus nulla.</p>
+            </div>
+          </div>
+          <button type="button" class="btn btn-outline-light"><i class="bi bi-download p-2"></i>Download</button>
+        </div>
+      </div>
+    </section>
+
+   <section class="contact-me">
+     <div class="container text-center">
+       <div class="row">
+          <h2>CONTACT ME</h2>
+          <div class="stella">
+            <div class="line bg-black"></div>
+            <span class="">
+              <i class="bi bi-star-fill star"></i>
+            </span>
+            <div class="line bg-black"></div>
+          </div>
+
+          <form class="col-8 offset-2 fs-form text-start">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Name</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Email Address</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary about">Send</button>
+          </form>
+       </div>
+     </div>
+   </section>
     
+  <footer>
+
+    <div class="footer-up text-center">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-3 text-white">
+          <div class="col">
+            <h6 class="">LOCATION</h6>
+            <span class="">2215 John Daniel Drive clark, MO 54343</span>
+          </div>
+          <div class="col">
+            <h6 class="">AROUND THE WEB</h6>
+            <div class="gr-icons d-flex">
+              <i class="bi bi-twitter"></i>
+            </div>
+          </div>
+          <div class="col">
+            <h6 class="">ABOUT FREELANCER</h6>
+            <span class="">Freelancer is a fre to use, open source Bootstrap theme created by <span>Start Boostrap</span>.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-down">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col text-white">
+            <span>Copyright Your Website 2019</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
 
 </body>
 </html>
